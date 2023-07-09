@@ -2,10 +2,10 @@
 #include <memory> // for std::unique_ptr and std::make_unique
 #include <folly/io/async/EventBase.h> // for folly::EventBase
 #include <folly/io/IOBuf.h> // for folly::IOBuf
-#include <quic/server/test/MockQuicSocketDriver.h> // for quic::MockQuicSocketDriver
-#include <proxygen/httpserver/HQUpstreamSession.h> // for proxygen::HQUpstreamSession
-#include <proxygen/httpserver/H3DatagramAsyncSocket.h> // for proxygen::H3DatagramAsyncSocket
-#include <proxygen/httpserver/H3DatagramAsyncSocketTest.h> // for proxygen::H3DatagramAsyncSocketTest
+#include <proxygen/lib/http/session/test/MockQuicSocketDriver.h>
+#include <proxygen/lib/httpserver/HQUpstreamSession.h> // for proxygen::HQUpstreamSession
+#include <proxygen/lib/httpserver/H3DatagramAsyncSocket.h> // for proxygen::H3DatagramAsyncSocket
+#include <proxygen/lib/httpserver/H3DatagramAsyncSocketTest.h> // for proxygen::H3DatagramAsyncSocketTest
 #include <MockUDPReadCallback.h> // for MockUDPReadCallback
 
 
